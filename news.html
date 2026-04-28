@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Федоров Арсений Станиславович">
+    <meta name="keywords" content="HTML, CSS, таблицы, сайт, лабораторная работа">
+    <meta name="description" content="Лабораторная работа №3: компоновка страниц таблицами, CSS и HTML-формы">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <base href="./">
+    <title>Мой первый простой сайт</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<table id="main" align="center">
+    <tr>
+        <td colspan="2" id="header">
+            <h1><a href="index.html">Мой первый простой сайт</a></h1>
+        </td>
+    </tr>
+    <tr>
+        <td id="left">
+            
+<h2>Навигация</h2>
+<ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="news.html">Новости</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+</ul>
+
+<h2>Ссылки</h2>
+<ul>
+    <li><a href="https://yandex.ru" target="_blank">Яндекс</a></li>
+    <li><a href="https://google.com" target="_blank">Google</a></li>
+</ul>
+
+<h2>Вход</h2>
+<form action="index.html" method="post">
+    Пользователь:<br>
+    <div align="right"><input name="login" type="text"></div>
+    Пароль:<br>
+    <div align="right"><input name="pwd" type="password"></div>
+    <div align="right"><input name="ok" type="submit" value="Войти"></div>
+</form>
+
+        </td>
+        <td id="content">
+            
+<h2>Новости</h2>
+<p><b>Новость 1.</b> На сайте появилась главная страница с навигацией и формой входа.</p>
+<p><b>Новость 2.</b> Добавлен файл стилей, который оформляет шапку, меню, контент и футер.</p>
+<p><b>Новость 3.</b> Сайт подготовлен для публикации на бесплатном хостинге.</p>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" id="footer">&copy; Федоров Арсений Станиславович</td>
+    </tr>
+</table>
+</body>
+</html>
